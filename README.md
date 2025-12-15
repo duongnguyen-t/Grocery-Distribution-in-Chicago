@@ -52,7 +52,19 @@ The majority of community areas have zero or one grocery chain location. Only a 
 ![Grocery Chain Count Histogram](grocery_chain_count_hist.png)
 
 ---
+## How to Run  
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/duongnguyen-t/chicago-grocery-access.git
+   cd chicago-grocery-access
+2. Install dependencies:
+   ``` bash 
+   pip install pandas numpy geopandas matplotlib contextily shapely
+3. Run notebooks or scripts:
+   ``` bash 
+   jupyter notebook
 
+---
 ## Data Sources  
 - City of Chicago: Grocery store licensing and location data  
 - U.S. Census Bureau (ACS): Population and neighborhood characteristics  
@@ -82,16 +94,3 @@ The majority of community areas have zero or one grocery chain location. Only a 
 - Store proximity does not capture food quality, pricing, or transportation access.
 - The analysis is descriptive and observational; it identifies spatial patterns rather than causal effects.
 
----
-
-## How to Run  
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/duongnguyen-t/chicago-grocery-access.git
-   cd chicago-grocery-access
-2. Install dependencies:
-   ``` bash 
-   pip install pandas numpy geopandas matplotlib contextily shapely
-3. Run notebooks or scripts:
-   ``` bash 
-   jupyter notebook
