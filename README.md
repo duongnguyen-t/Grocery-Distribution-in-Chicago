@@ -52,6 +52,20 @@ The majority of community areas have zero or one grocery chain location. Only a 
 ![Grocery Chain Count Histogram](grocery_chain_count_hist.png)
 
 ---
+
+### 5) Firms use neighborhood composition as a cost/risk signal  
+The positive income coefficient (firms over-serve high-income areas relative to the model), combined with the racial composition signal (minority areas underserved), suggests that firms use neighborhood demographics as a proxy for profitability beyond what actual demand variables capture. Chains may implicitly cede minority-majority neighborhoods rather than compete there, keeping each other out of "low-margin" markets without explicit coordination.
+
+![Entry Gap and Store Distribution by Neigborhoods](gap_map.png)
+
+---
+
+### 6) The relationship between neighborhood characteristics and chain entry is largely linear
+Chains are primarily responding to density and infrastructure signals, and the racial/food access disparities emerge as a byproduct, not necessarily as a direct targeting decision. This is a more nuanced and defensible finding than simple discrimination.
+
+![Probability of Chain Entry by Neighborhood](entry_probability_map.png)
+
+---
 ## How to Run  
 1. Clone the repository:
    ```bash
